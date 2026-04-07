@@ -608,7 +608,6 @@ export default class GoatProvider implements ApiProvider {
                   : undefined,
               inputVars: currentInputVars,
             });
-            previousTargetOutput = endedOutput;
           }
 
           lastTargetResponse = targetResponse;
